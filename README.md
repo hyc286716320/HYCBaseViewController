@@ -1,0 +1,2 @@
+# HYCBaseViewController
+viewController的父类继承
