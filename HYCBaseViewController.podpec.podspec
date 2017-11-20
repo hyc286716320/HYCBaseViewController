@@ -7,21 +7,15 @@
 #
 
 Pod::Spec.new do |s|
-
-  s.name         = "HYCBaseViewController"
-  s.version      = "0.0.1"
-  s.summary      = "这是一首简单的小情歌"
-  s.homepage     = "https://github.com/hyc286716320/HYCBaseViewController"
-  s.license      = "MIT (example)"
-  s.author             = { "HuYunchao" => "286716320@qq.com" }
-  s.platform     = :iOS , '6.0'
-  s.source       = { :git => "http://EXAMPLE/HYCBaseViewController.podpec.git", :tag => "#{s.version}" }
-
-
-
-
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.requires_files = true
-  s.exclude_files = "Classes/Exclude"
-
+s.name         = 'HYCBaseViewController'
+s.version      = '1.0.0'
+s.summary      = "这是一首简单的小情歌"
+s.homepage     = 'https://github.com/hyc286716320/HYCBaseViewController'
+s.license      = 'MIT'
+s.authors      = {'HuYunchao' => '286716320@qq.com'}
+s.platform     = :ios, '6.0'
+s.source       = {:git => 'https://github.com/hyc286716320/HYCBaseViewController.git', :tag => s.version}
+s.source_files = 'HYCBaseViewController/**/*'
+s.requires_arc = true
+end
 end
