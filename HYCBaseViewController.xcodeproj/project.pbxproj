@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CC398AA200CAF77004043DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC398A9200CAF77004043DB /* AppDelegate.m */; };
+		0CC398B2200CAF77004043DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC398B1200CAF77004043DB /* Assets.xcassets */; };
+		0CC398B5200CAF77004043DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC398B3200CAF77004043DB /* LaunchScreen.storyboard */; };
+		0CC398B8200CAF77004043DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC398B7200CAF77004043DB /* main.m */; };
+		0CC398C2200CAF77004043DB /* HYCBaseViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC398C1200CAF77004043DB /* HYCBaseViewControllerTests.m */; };
+		0CC398CD200CAF78004043DB /* HYCBaseViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC398CC200CAF78004043DB /* HYCBaseViewControllerUITests.m */; };
+		0CC398E7200CAF85004043DB /* HYCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC398DB200CAF85004043DB /* HYCBaseViewController.m */; };
+		0CC398E8200CAF85004043DB /* UINavigationItem+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC398DD200CAF85004043DB /* UINavigationItem+SXFixSpace.m */; };
+		0CC398E9200CAF85004043DB /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC398DE200CAF85004043DB /* UIBarButtonItem+Badge.m */; };
+		0CC398EA200CAF85004043DB /* UIImage+woting.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC398E2200CAF85004043DB /* UIImage+woting.m */; };
+		0CC398EB200CAF85004043DB /* UIBarButtonItem+SXCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC398E5200CAF85004043DB /* UIBarButtonItem+SXCreate.m */; };
+		0CC398EC200CAF85004043DB /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC398E6200CAF85004043DB /* NSObject+SXRuntime.m */; };
+		0CC398EF200CAFC6004043DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC398EE200CAFC6004043DB /* ViewController.m */; };
+		51892CF3A127B4DE76216336 /* Pods_HYCBaseViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5BD5AFEEDDFDFAF9BFE08C /* Pods_HYCBaseViewController.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CC398BE200CAF77004043DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CC3989D200CAF77004043DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CC398A4200CAF77004043DB;
+			remoteInfo = HYCBaseViewController;
+		};
+		0CC398C9200CAF78004043DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CC3989D200CAF77004043DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CC398A4200CAF77004043DB;
+			remoteInfo = HYCBaseViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CC398A5200CAF77004043DB /* HYCBaseViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYCBaseViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC398A8200CAF77004043DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0CC398A9200CAF77004043DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0CC398B1200CAF77004043DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CC398B4200CAF77004043DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CC398B6200CAF77004043DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC398B7200CAF77004043DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CC398BD200CAF77004043DB /* HYCBaseViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYCBaseViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC398C1200CAF77004043DB /* HYCBaseViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCBaseViewControllerTests.m; sourceTree = "<group>"; };
+		0CC398C3200CAF77004043DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC398C8200CAF77004043DB /* HYCBaseViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYCBaseViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC398CC200CAF78004043DB /* HYCBaseViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCBaseViewControllerUITests.m; sourceTree = "<group>"; };
+		0CC398CE200CAF78004043DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC398DB200CAF85004043DB /* HYCBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCBaseViewController.m; sourceTree = "<group>"; };
+		0CC398DC200CAF85004043DB /* UIImage+woting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+woting.h"; sourceTree = "<group>"; };
+		0CC398DD200CAF85004043DB /* UINavigationItem+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+SXFixSpace.m"; sourceTree = "<group>"; };
+		0CC398DE200CAF85004043DB /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
+		0CC398DF200CAF85004043DB /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXRuntime.h"; sourceTree = "<group>"; };
+		0CC398E0200CAF85004043DB /* UIBarButtonItem+SXCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SXCreate.h"; sourceTree = "<group>"; };
+		0CC398E1200CAF85004043DB /* HYCBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCBaseViewController.h; sourceTree = "<group>"; };
+		0CC398E2200CAF85004043DB /* UIImage+woting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+woting.m"; sourceTree = "<group>"; };
+		0CC398E3200CAF85004043DB /* UINavigationItem+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+SXFixSpace.h"; sourceTree = "<group>"; };
+		0CC398E4200CAF85004043DB /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		0CC398E5200CAF85004043DB /* UIBarButtonItem+SXCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SXCreate.m"; sourceTree = "<group>"; };
+		0CC398E6200CAF85004043DB /* NSObject+SXRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXRuntime.m"; sourceTree = "<group>"; };
+		0CC398ED200CAFC6004043DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0CC398EE200CAFC6004043DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3EB65B6DEEEF4D39AB6E1029 /* Pods-HYCBaseViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYCBaseViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYCBaseViewController/Pods-HYCBaseViewController.release.xcconfig"; sourceTree = "<group>"; };
+		E17C9B5456CB8C81BBCA7475 /* Pods-HYCBaseViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYCBaseViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYCBaseViewController/Pods-HYCBaseViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		FC5BD5AFEEDDFDFAF9BFE08C /* Pods_HYCBaseViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYCBaseViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CC398A2200CAF77004043DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51892CF3A127B4DE76216336 /* Pods_HYCBaseViewController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC398BA200CAF77004043DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC398C5200CAF77004043DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CC3989C200CAF77004043DB = {
+			isa = PBXGroup;
+			children = (
+				0CC398A7200CAF77004043DB /* HYCBaseViewController */,
+				0CC398C0200CAF77004043DB /* HYCBaseViewControllerTests */,
+				0CC398CB200CAF78004043DB /* HYCBaseViewControllerUITests */,
+				0CC398A6200CAF77004043DB /* Products */,
+				835B3C8225DD546322E942FA /* Pods */,
+				4449873E3D383B978908C36C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0CC398A6200CAF77004043DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CC398A5200CAF77004043DB /* HYCBaseViewController.app */,
+				0CC398BD200CAF77004043DB /* HYCBaseViewControllerTests.xctest */,
+				0CC398C8200CAF77004043DB /* HYCBaseViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CC398A7200CAF77004043DB /* HYCBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0CC398DA200CAF85004043DB /* HYCBaseViewController */,
+				0CC398A8200CAF77004043DB /* AppDelegate.h */,
+				0CC398A9200CAF77004043DB /* AppDelegate.m */,
+				0CC398ED200CAFC6004043DB /* ViewController.h */,
+				0CC398EE200CAFC6004043DB /* ViewController.m */,
+				0CC398B1200CAF77004043DB /* Assets.xcassets */,
+				0CC398B3200CAF77004043DB /* LaunchScreen.storyboard */,
+				0CC398B6200CAF77004043DB /* Info.plist */,
+				0CC398B7200CAF77004043DB /* main.m */,
+			);
+			path = HYCBaseViewController;
+			sourceTree = "<group>";
+		};
+		0CC398C0200CAF77004043DB /* HYCBaseViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CC398C1200CAF77004043DB /* HYCBaseViewControllerTests.m */,
+				0CC398C3200CAF77004043DB /* Info.plist */,
+			);
+			path = HYCBaseViewControllerTests;
+			sourceTree = "<group>";
+		};
+		0CC398CB200CAF78004043DB /* HYCBaseViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0CC398CC200CAF78004043DB /* HYCBaseViewControllerUITests.m */,
+				0CC398CE200CAF78004043DB /* Info.plist */,
+			);
+			path = HYCBaseViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		0CC398DA200CAF85004043DB /* HYCBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0CC398DB200CAF85004043DB /* HYCBaseViewController.m */,
+				0CC398DC200CAF85004043DB /* UIImage+woting.h */,
+				0CC398DD200CAF85004043DB /* UINavigationItem+SXFixSpace.m */,
+				0CC398DE200CAF85004043DB /* UIBarButtonItem+Badge.m */,
+				0CC398DF200CAF85004043DB /* NSObject+SXRuntime.h */,
+				0CC398E0200CAF85004043DB /* UIBarButtonItem+SXCreate.h */,
+				0CC398E1200CAF85004043DB /* HYCBaseViewController.h */,
+				0CC398E2200CAF85004043DB /* UIImage+woting.m */,
+				0CC398E3200CAF85004043DB /* UINavigationItem+SXFixSpace.h */,
+				0CC398E4200CAF85004043DB /* UIBarButtonItem+Badge.h */,
+				0CC398E5200CAF85004043DB /* UIBarButtonItem+SXCreate.m */,
+				0CC398E6200CAF85004043DB /* NSObject+SXRuntime.m */,
+			);
+			path = HYCBaseViewController;
+			sourceTree = "<group>";
+		};
+		4449873E3D383B978908C36C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC5BD5AFEEDDFDFAF9BFE08C /* Pods_HYCBaseViewController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		835B3C8225DD546322E942FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E17C9B5456CB8C81BBCA7475 /* Pods-HYCBaseViewController.debug.xcconfig */,
+				3EB65B6DEEEF4D39AB6E1029 /* Pods-HYCBaseViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CC398A4200CAF77004043DB /* HYCBaseViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC398D1200CAF78004043DB /* Build configuration list for PBXNativeTarget "HYCBaseViewController" */;
+			buildPhases = (
+				F9ABE9B8948CAF3BCA5DD371 /* [CP] Check Pods Manifest.lock */,
+				0CC398A1200CAF77004043DB /* Sources */,
+				0CC398A2200CAF77004043DB /* Frameworks */,
+				0CC398A3200CAF77004043DB /* Resources */,
+				798C44F5512EF20CA2ECACBB /* [CP] Embed Pods Frameworks */,
+				928E0F877193F0762401B48B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYCBaseViewController;
+			productName = HYCBaseViewController;
+			productReference = 0CC398A5200CAF77004043DB /* HYCBaseViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CC398BC200CAF77004043DB /* HYCBaseViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC398D4200CAF78004043DB /* Build configuration list for PBXNativeTarget "HYCBaseViewControllerTests" */;
+			buildPhases = (
+				0CC398B9200CAF77004043DB /* Sources */,
+				0CC398BA200CAF77004043DB /* Frameworks */,
+				0CC398BB200CAF77004043DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CC398BF200CAF77004043DB /* PBXTargetDependency */,
+			);
+			name = HYCBaseViewControllerTests;
+			productName = HYCBaseViewControllerTests;
+			productReference = 0CC398BD200CAF77004043DB /* HYCBaseViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0CC398C7200CAF77004043DB /* HYCBaseViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC398D7200CAF78004043DB /* Build configuration list for PBXNativeTarget "HYCBaseViewControllerUITests" */;
+			buildPhases = (
+				0CC398C4200CAF77004043DB /* Sources */,
+				0CC398C5200CAF77004043DB /* Frameworks */,
+				0CC398C6200CAF77004043DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CC398CA200CAF78004043DB /* PBXTargetDependency */,
+			);
+			name = HYCBaseViewControllerUITests;
+			productName = HYCBaseViewControllerUITests;
+			productReference = 0CC398C8200CAF77004043DB /* HYCBaseViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CC3989D200CAF77004043DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = hyc;
+				TargetAttributes = {
+					0CC398A4200CAF77004043DB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0CC398BC200CAF77004043DB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0CC398A4200CAF77004043DB;
+					};
+					0CC398C7200CAF77004043DB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0CC398A4200CAF77004043DB;
+					};
+				};
+			};
+			buildConfigurationList = 0CC398A0200CAF77004043DB /* Build configuration list for PBXProject "HYCBaseViewController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CC3989C200CAF77004043DB;
+			productRefGroup = 0CC398A6200CAF77004043DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CC398A4200CAF77004043DB /* HYCBaseViewController */,
+				0CC398BC200CAF77004043DB /* HYCBaseViewControllerTests */,
+				0CC398C7200CAF77004043DB /* HYCBaseViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CC398A3200CAF77004043DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC398B5200CAF77004043DB /* LaunchScreen.storyboard in Resources */,
+				0CC398B2200CAF77004043DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC398BB200CAF77004043DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC398C6200CAF77004043DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		798C44F5512EF20CA2ECACBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HYCBaseViewController/Pods-HYCBaseViewController-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYCBaseViewController/Pods-HYCBaseViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		928E0F877193F0762401B48B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYCBaseViewController/Pods-HYCBaseViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9ABE9B8948CAF3BCA5DD371 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HYCBaseViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CC398A1200CAF77004043DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC398EF200CAFC6004043DB /* ViewController.m in Sources */,
+				0CC398E9200CAF85004043DB /* UIBarButtonItem+Badge.m in Sources */,
+				0CC398E7200CAF85004043DB /* HYCBaseViewController.m in Sources */,
+				0CC398EA200CAF85004043DB /* UIImage+woting.m in Sources */,
+				0CC398E8200CAF85004043DB /* UINavigationItem+SXFixSpace.m in Sources */,
+				0CC398EB200CAF85004043DB /* UIBarButtonItem+SXCreate.m in Sources */,
+				0CC398B8200CAF77004043DB /* main.m in Sources */,
+				0CC398EC200CAF85004043DB /* NSObject+SXRuntime.m in Sources */,
+				0CC398AA200CAF77004043DB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC398B9200CAF77004043DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC398C2200CAF77004043DB /* HYCBaseViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC398C4200CAF77004043DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC398CD200CAF78004043DB /* HYCBaseViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CC398BF200CAF77004043DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CC398A4200CAF77004043DB /* HYCBaseViewController */;
+			targetProxy = 0CC398BE200CAF77004043DB /* PBXContainerItemProxy */;
+		};
+		0CC398CA200CAF78004043DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CC398A4200CAF77004043DB /* HYCBaseViewController */;
+			targetProxy = 0CC398C9200CAF78004043DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CC398B3200CAF77004043DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CC398B4200CAF77004043DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CC398CF200CAF78004043DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0CC398D0200CAF78004043DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CC398D2200CAF78004043DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17C9B5456CB8C81BBCA7475 /* Pods-HYCBaseViewController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYCBaseViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JLC.HYCBaseViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CC398D3200CAF78004043DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EB65B6DEEEF4D39AB6E1029 /* Pods-HYCBaseViewController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYCBaseViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JLC.HYCBaseViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0CC398D5200CAF78004043DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYCBaseViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JLC.HYCBaseViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYCBaseViewController.app/HYCBaseViewController";
+			};
+			name = Debug;
+		};
+		0CC398D6200CAF78004043DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYCBaseViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JLC.HYCBaseViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYCBaseViewController.app/HYCBaseViewController";
+			};
+			name = Release;
+		};
+		0CC398D8200CAF78004043DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYCBaseViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JLC.HYCBaseViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYCBaseViewController;
+			};
+			name = Debug;
+		};
+		0CC398D9200CAF78004043DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYCBaseViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JLC.HYCBaseViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYCBaseViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CC398A0200CAF77004043DB /* Build configuration list for PBXProject "HYCBaseViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC398CF200CAF78004043DB /* Debug */,
+				0CC398D0200CAF78004043DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CC398D1200CAF78004043DB /* Build configuration list for PBXNativeTarget "HYCBaseViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC398D2200CAF78004043DB /* Debug */,
+				0CC398D3200CAF78004043DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CC398D4200CAF78004043DB /* Build configuration list for PBXNativeTarget "HYCBaseViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC398D5200CAF78004043DB /* Debug */,
+				0CC398D6200CAF78004043DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CC398D7200CAF78004043DB /* Build configuration list for PBXNativeTarget "HYCBaseViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC398D8200CAF78004043DB /* Debug */,
+				0CC398D9200CAF78004043DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CC3989D200CAF77004043DB /* Project object */;
+}
