@@ -13,6 +13,8 @@
 #import "NSObject+SXRuntime.h"
 #import "UINavigationItem+SXFixSpace.h"
 #import "UIImage+woting.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import <Masonry/Masonry.h>
 #define IS_IPHONE_58inch ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )812 ) < DBL_EPSILON )
 #define kBottomGuideHeight (IS_IPHONE_58inch ? 34 : 0)
 #define HYC__COLOR_HEXH(s)  [UIColor colorWithRed:(((s & 0xFF0000) >> 16))/255.0 green:(((s &0xFF00) >>8))/255.0 blue:((s &0xFF))/255.0 alpha:1.0]

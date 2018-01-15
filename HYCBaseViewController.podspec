@@ -12,4 +12,6 @@ s.source_files = 'HYCBaseViewController/HYCBaseViewController'
 s.requires_arc = true
 
 s.dependency 'ReactiveCocoa','~> 2.5'
+s.dependency "Masonry"
+s.dependency 'FDFullscreenPopGesture'
 end

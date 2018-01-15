@@ -7,5 +7,6 @@ target 'HYCBaseViewController' do
 
 
 pod 'ReactiveCocoa','~> 2.5'
-
+pod "Masonry"
+pod 'FDFullscreenPopGesture'#NavItem
 end
