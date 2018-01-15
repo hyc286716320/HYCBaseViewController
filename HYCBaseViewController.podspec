@@ -11,5 +11,5 @@ s.platform     = :ios
 s.source_files = 'HYCBaseViewController'
 s.requires_arc = true
 
-#s.dependency 'TMUtils', '~> 1.0'
+#s.dependency 'ReactiveCocoa','~> 2.5'
 end
