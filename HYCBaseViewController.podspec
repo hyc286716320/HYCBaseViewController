@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/hyc286716320/HYCBaseViewController"
   s.license      = "MIT"
   s.author             = { "HuYunchao" => "286716320@qq.com" }
-  s.source       = { :git => "https://github.com/hyc286716320/HYCBaseViewController.git", :tag => "#{s.version}" }
-  s.source_files  = "HYCBaseViewController", HYCBaseViewController/*.{h,m}"
-#  s.exclude_files = "Classes/Exclude"
+  s.source       = { :git => "https://github.com/hyc286716320/HYCBaseViewController.git", :tag => s.version.to_s }
+  s.source_files  = 'HYCBaseViewController/*'
+
 end
