@@ -15,6 +15,7 @@
 #import "UIImage+woting.h"
 #define IS_IPHONE_58inch ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )812 ) < DBL_EPSILON )
 #define kBottomGuideHeight (IS_IPHONE_58inch ? 34 : 0)
+#define HYC__COLOR_HEXH(s)  [UIColor colorWithRed:(((s & 0xFF0000) >> 16))/255.0 green:(((s &0xFF00) >>8))/255.0 blue:((s &0xFF))/255.0 alpha:1.0]
 @interface HYCBaseViewController ()
 
 @property (strong, nonatomic) UIImageView *navBarHairLineImgView;
@@ -30,8 +31,8 @@
 - (void)setUI{
     self.navigationController.navigationBar.hidden = false;
     self.navigationItem.title = @"";
-    self.navigationController.navigationBar.barTintColor = HYC__COLOR_HEX(0x173C84);
-    self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:HYC__FontSize(20)};
+    self.navigationController.navigationBar.barTintColor = HYC__COLOR_HEXH(0x173C84);
+    self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:[UIFont systemFontOfSize:20]};
     self.navItemTintColor = [UIColor whiteColor];
     
 }
@@ -235,7 +236,7 @@
 #pragma mark - getter
 - (UINavigationBar *)customNavigationBar {
     if (_customNavigationBar == nil) {
-        _customNavigationBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 44)];
+        _customNavigationBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 44)];
         _customNavigationBar.tintColor = [UIColor lightTextColor];
         [_customNavigationBar setBackgroundImage: [[UIImage alloc] init] forBarMetrics: UIBarMetricsDefault];
         _customNavigationBar.shadowImage = [UIImage new];
@@ -256,7 +257,7 @@
 - (UILabel *)customTitleLabel {
     if (_customTitleLabel == nil) {
         _customTitleLabel = [[UILabel alloc] init];
-        _customTitleLabel.textColor = HYC__COLOR_HEX(0xbfe3ff);
+        _customTitleLabel.textColor = HYC__COLOR_HEXH(0xbfe3ff);
     }
     return _customTitleLabel;
 }
@@ -265,7 +266,7 @@
     CGFloat height = kBottomGuideHeight;
     if (self.tabBarController.tabBar != nil) {
         CGRect tabbarFrame = self.tabBarController.tabBar.frame;
-        CGFloat screenHeight = SCREEN_HEIGHT;
+        CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
         height = screenHeight - CGRectGetMinY(tabbarFrame);
     }
     return height;
