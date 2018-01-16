@@ -14,6 +14,7 @@
 #import "UINavigationItem+SXFixSpace.h"
 #import "UIImage+woting.h"
 #import "UINavigationController+FDFullscreenPopGesture.h"
+//#import 
 #import <Masonry/Masonry.h>
 #define IS_IPHONE_58inch ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )812 ) < DBL_EPSILON )
 #define kBottomGuideHeight (IS_IPHONE_58inch ? 34 : 0)
@@ -117,16 +118,16 @@
         [self.view addSubview:self.customNavigationBar];
         [self.view addSubview:self.customStatusBarView];
         
-        @weakify(self);
-        [RACObserve(self, customNavigationBar.backgroundColor) subscribeNext:^(id x) {
-            @strongify(self);
-            self.customStatusBarView.backgroundColor = x;
-        }];
+//        @weakify(self);
+//        [RACObserve(self, customNavigationBar.backgroundColor) subscribeNext:^(id x) {
+//            @strongify(self);
+            self.customStatusBarView.backgroundColor = self.customNavigationBar.backgroundColor;
+//        }];
         
-        [RACObserve(self, customNavigationBar.alpha) subscribeNext:^(id x) {
-            @strongify(self);
+//        [RACObserve(self, customNavigationBar.alpha) subscribeNext:^(id x) {
+//            @strongify(self);
             self.customStatusBarView.alpha = self.customNavigationBar.alpha;
-        }];
+//        }];
     } else {
         [self.view bringSubviewToFront:self.customNavigationBar];
         [self.view bringSubviewToFront:self.customStatusBarView];
