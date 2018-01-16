@@ -8,13 +8,10 @@
 
 #import "HYCBaseViewController.h"
 #import "UIBarButtonItem+SXCreate.h"
-//#import <ReactiveCocoa/ReactiveCocoa.h>
-//#import "UIColor+woting.h"
 #import "NSObject+SXRuntime.h"
 #import "UINavigationItem+SXFixSpace.h"
 #import "UIImage+woting.h"
 #import "UINavigationController+FDFullscreenPopGesture.h"
-//#import 
 #import <Masonry/Masonry.h>
 #define IS_IPHONE_58inch ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )812 ) < DBL_EPSILON )
 #define kBottomGuideHeight (IS_IPHONE_58inch ? 34 : 0)
@@ -41,16 +38,6 @@
 }
 
 - (void)loadSquareRequest{
-    
-//    NSArray *classArray = [WKProgressHUD getSubclassSetSuperVC:
-//                           
-//                           [LLJLCTools getViewControllerAtView:self.view WithVcClass:NSClassFromString(@"HYCBaseViewController")]
-//                           
-//                           ];
-//    
-//    for (NSString *className in classArray) {
-//        NSLog(@"%@",className);
-//    }
     
 }
 #pragma mark - 生命周期
