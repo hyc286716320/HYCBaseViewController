@@ -1,24 +1,15 @@
 PODS:
   - FDFullscreenPopGesture (1.1)
   - Masonry (1.1.0)
-  - ReactiveCocoa (2.5):
-    - ReactiveCocoa/UI (= 2.5)
-  - ReactiveCocoa/Core (2.5):
-    - ReactiveCocoa/no-arc
-  - ReactiveCocoa/no-arc (2.5)
-  - ReactiveCocoa/UI (2.5):
-    - ReactiveCocoa/Core
 
 DEPENDENCIES:
   - FDFullscreenPopGesture
   - Masonry
-  - ReactiveCocoa (~> 2.5)
 
 SPEC CHECKSUMS:
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
 
-PODFILE CHECKSUM: 6686fc8c8c8b993e9ce2cd26e32b1bff4c5ae9de
+PODFILE CHECKSUM: 057084b43cf31c67ac4b81a397f080a821f882e4
 
 COCOAPODS: 1.4.0.beta.1

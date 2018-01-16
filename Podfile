@@ -6,7 +6,7 @@ target 'HYCBaseViewController' do
    use_frameworks!
 
 
-pod 'ReactiveCocoa','~> 2.5'
+#pod 'ReactiveCocoa','~> 2.5'
 pod "Masonry"
 pod 'FDFullscreenPopGesture'#NavItem
 end
