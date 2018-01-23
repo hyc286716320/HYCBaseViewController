@@ -7,7 +7,7 @@ To integrate HYCBaseViewController into your Xcode project using CocoaPods, spec
 
 or
 
-`pod 'HYCBaseViewController', '~> 1.1'`
+`pod 'HYCBaseViewController', '~> 1.0'`
 
 Then, run the following command:
 
