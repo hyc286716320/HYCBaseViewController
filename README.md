@@ -1,8 +1,5 @@
 # HYCBaseViewController
 UIViewController父类,继承了UINav,并且实现了很多UINav的方法,更加方便的调用
-
-[![Bug Report Flow](bbbb.png)](bbbb.png)
-
 ## podfile
 To integrate HYCBaseViewController into your Xcode project using CocoaPods, specify it in your Podfile:
 
